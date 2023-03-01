@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,18 +30,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    padding: 30px;
+    padding: 30px; 
 }
-
-form {
-    display: flex;
-  }
-  
-  input {
-    padding: 15px 10px;
-    outline: none;
-    width: 400px;
-  }
 
 .btn-success {
     width: 50px;

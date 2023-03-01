@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do List</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="style.css">
     <link  rel="icon"   href="images/" type="" />
 </head>
@@ -15,16 +15,25 @@
         <div class="container-1 text-center">
             <h2>Todo List</h2>
         </div>
-            <div class="container-2">
-                <div class="row col-12">             
+        <div class="container-2">
+            <div class="row">
+                <form action="">               
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Add a new task">
-                    <div class="input-group-append">
-                        <button class="btn btn-success" type="submit">Add</button>
+                        <input type="text" class="form-control task-list" placeholder="Add a new task">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit">Add</button>
+                        </div>
                     </div>
-                    </div>       
-                </div>
+                </form>     
             </div>
+            <div class="li-container">
+                <ul>
+
+                </ul>
+            </div>
+        </div>
+
+            
     </main>
     <script src="./main.js"></script>   
 </body>
