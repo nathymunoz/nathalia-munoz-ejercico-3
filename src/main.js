@@ -33,7 +33,7 @@ function addCheckBtn() {
 function addDeleteBtn() {
     const deleteBtn = document.createElement("button");
   
-    deleteBtn.textContent = "X";
+    deleteBtn.textContent = "Delete";
     deleteBtn.className = "btn-delete";
   
     deleteBtn.addEventListener("click", (e) => {
